@@ -39,4 +39,7 @@ i_5.addEventListener('click', function () {
 i_6.addEventListener('click', function () {
     contain_3.style.fontSize = '18px' 
 })
-
+var name = document.getElementById('select')
+name.addEventListener('change', function(){
+    alert(this.value)
+}
